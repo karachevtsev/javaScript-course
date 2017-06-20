@@ -1,0 +1,13 @@
+.vscode/
+.DS_Store
+Thumbs.db
+.idea
+.publish
+ex_files
+*.sublime-*
+*.log
+*.psd
+*.ai
+*.pdf
+*.mp4
+TODO.md

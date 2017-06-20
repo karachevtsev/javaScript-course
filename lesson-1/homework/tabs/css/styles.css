@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body{
+    margin: 40px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+ul  {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    border-radius: 5px 5px 0 0;
+    display: flex;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+}
+
+ul li.active {
+    background: #f1f1f1;
+    border-bottom: none;
+}
+
+.tab-content {
+    display: none;
+    height: 50px;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.tab-content.active {
+    display: block;
+    background-color: #efefef;
+}
