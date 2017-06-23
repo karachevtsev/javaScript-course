@@ -1,0 +1,17 @@
+html, body{
+    margin: 40px;
+}
+
+input {
+    display: block;
+    margin-bottom: 20px;
+}
+
+input.error {
+    border: 1px solid #a94442;
+}
+
+input.success {
+    border: 1px solid #2b542c;
+}
+
