@@ -1,0 +1,12 @@
+html, body{
+    margin: 40px;
+}
+
+
+.error {
+    background-color: #fc6363;
+}
+.valid {
+    background-color: #81e569;
+}
+

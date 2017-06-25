@@ -1,0 +1,11 @@
+html, body{
+    margin: 10px;
+}
+
+.focus{
+    box-shadow: 0 0 5px #ff0;
+}
+
+.shadow{
+    text-shadow: 2px 2px 1px #000;
+}
